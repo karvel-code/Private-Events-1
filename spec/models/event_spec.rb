@@ -13,9 +13,9 @@ RSpec.describe Event, type: :model do
     it 'should reture only past event' do
       expect(Event.upcoming_events.first).to eq(@event2)
     end
-    it 'should not craete event without user'do
-    @event2 = Event.create(discription: 'party', date: '05-05-2022')
-    expect(@event2).to_not be_valid
-  end
+    it 'should not craete event without user' do
+      @event2 = Event.create(discription: 'party', date: '05-05-2022')
+      expect(@event2).to_not be_valid
+    end
   end
 end
