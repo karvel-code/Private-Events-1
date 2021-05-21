@@ -27,7 +27,7 @@ $ cd <folder>
 ```
 
 ```
-$ git clone git@github.com:garciajordy/private_events.git 
+$ git clone git@github.com:verissimohenry/Private-Events.git 
 ```
 
 ```
@@ -95,8 +95,6 @@ $ rspec spec/models/invite_spec.rb
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/garciajordy/private_events/issues).
 
 ## Show your support
 
