@@ -25,7 +25,7 @@ class InvitesController < ApplicationController
   #   @invite.update(discription: true)
   #   redirect_to root_path
   # end
-  
+
   private
 
   def invite_params
