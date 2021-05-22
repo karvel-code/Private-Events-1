@@ -75,13 +75,7 @@ $ http://localhost:3000/events/new
 ## Rspec testing
  > To test all models and scopes, write the following in your terminal:
  ```
-$ rspec spec/models/user_spec.rb
-```
-```
-$ rspec spec/models/event_spec.rb
-```
-```
-$ rspec spec/models/invite_spec.rb
+$ rspec
 ```
 ## Authors
 
